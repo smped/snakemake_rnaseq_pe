@@ -23,6 +23,7 @@ star_dir = os.path.join(ref_root, 'dna', 'star')
 
 # Samples
 ext = config['ext']
+tag = config['tags']['tag']
 r1 = config['tags']['r1']
 r2 = config['tags']['r2']
 samples = pd.read_table(config["samples"])
